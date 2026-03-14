@@ -1,0 +1,554 @@
+{
+  "nav": [
+    {
+      "text": "مستندات التطوير",
+      "link": "https://devdocs.bagisto.com/"
+    },
+    {
+      "text": "ملحقات",
+      "link": "https://bagisto.com/en/extensions/"
+    },
+    {
+      "text": "منتدى المجتمع",
+      "link": "https://forums.bagisto.com/"
+    },
+    {
+      "text": "اتصل بنا",
+      "link": "https://bagisto.com/en/contacts/"
+    }
+  ],
+  "sidebar": [
+    {
+      "text": "مقدمة",
+      "link": "/ar/getting-started/introduction"
+    },
+    {
+      "text": "أنواع المنتجات",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "منتج بسيط",
+          "link": "/ar/product-types/simple-product"
+        },
+        {
+          "text": "منتج قابل للتكوين",
+          "link": "/ar/product-types/configurable-product"
+        },
+        {
+          "text": "المنتج الافتراضي",
+          "link": "/ar/product-types/virtual-product"
+        },
+        {
+          "text": "منتج الحزمة",
+          "link": "/ar/product-types/bundle-product"
+        },
+        {
+          "text": "المنتج المجمع",
+          "link": "/ar/product-types/grouped-product"
+        },
+        {
+          "text": "منتج قابل للتنزيل",
+          "link": "/ar/product-types/downloadable-product"
+        },
+        {
+          "text": "حجز المنتج",
+          "link": "/ar/product-types/booking-product"
+        }
+      ]
+    },
+    {
+      "text": "فئة",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "إنشاء فئة",
+          "link": "/ar/category/create-category"
+        }
+      ]
+    },
+    {
+      "text": "صفات",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "أنواع إدخال السمات",
+          "link": "/ar/attribute/attribute-input"
+        },
+        {
+          "text": "إنشاء سمات المنتج",
+          "link": "/ar/attribute/product-attribute"
+        },
+        {
+          "text": "عائلة السمات",
+          "link": "/ar/attribute/attribute-family"
+        }
+      ]
+    },
+    {
+      "text": "طلبات",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "إنشاء الطلب",
+          "link": "/ar/orders/create-order"
+        },
+        {
+          "text": "إنشاء فاتورة",
+          "link": "/ar/orders/create-invoice"
+        },
+        {
+          "text": "إنشاء شحنة",
+          "link": "/ar/orders/create-shipment"
+        },
+        {
+          "text": "إنشاء المبالغ المستردة",
+          "link": "/ar/orders/create-refunds"
+        },
+        {
+          "text": "المعاملات",
+          "link": "/ar/orders/transactions"
+        }
+      ]
+    },
+    {
+      "text": "عملاء",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "إنشاء عميل",
+          "link": "/ar/customer/create-customer"
+        },
+        {
+          "text": "مجموعة العملاء",
+          "link": "/ar/customer/customer-group"
+        },
+        {
+          "text": "تسعير مجموعة العملاء",
+          "link": "/ar/customer/customer-group-price"
+        },
+        {
+          "text": "مراجعة العملاء",
+          "link": "/ar/customer/customer-review"
+        }
+      ]
+    },
+    {
+      "text": "نظام إدارة المحتوى",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "إنشاء نظام إدارة المحتوى",
+          "link": "/ar/cms/create-cms"
+        }
+      ]
+    },
+    {
+      "text": "تسويق",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "قواعد سلة التسوق",
+          "link": "/ar/marketing/cart-rules"
+        },
+        {
+          "text": "قواعد الكتالوج",
+          "link": "/ar/marketing/catalog-rules"
+        },
+        {
+          "text": "قوالب البريد الإلكتروني",
+          "link": "/ar/marketing/email-templates"
+        },
+        {
+          "text": "الأحداث",
+          "link": "/ar/marketing/events"
+        },
+        {
+          "text": "الحملات",
+          "link": "/ar/marketing/campaigns"
+        },
+        {
+          "text": "اشتراكات النشرة الإخبارية",
+          "link": "/ar/marketing/newsletter-subscription"
+        },
+        {
+          "text": "خرائط الموقع",
+          "link": "/ar/marketing/sitemaps"
+        },
+        {
+          "text": "إعادة كتابة عنوان URL",
+          "link": "/ar/marketing/url-rewrite"
+        },
+        {
+          "text": "مصطلحات البحث",
+          "link": "/ar/marketing/search-terms"
+        },
+        {
+          "text": "بحث في المرادفات",
+          "link": "/ar/marketing/search-synonyms"
+        }
+      ]
+    },
+    {
+      "text": "إعداد التقارير",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "مبيعات",
+          "link": "/ar/reporting/sales-report"
+        },
+        {
+          "text": "عملاء",
+          "link": "/ar/reporting/customers-report"
+        },
+        {
+          "text": "منتجات",
+          "link": "/ar/reporting/product-report"
+        }
+      ]
+    },
+    {
+      "text": "إعدادات",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "اللغات",
+          "link": "/ar/settings/locales"
+        },
+        {
+          "text": "العملات",
+          "link": "/ar/settings/currencies"
+        },
+        {
+          "text": "أسعار الصرف",
+          "link": "/ar/settings/exchange-rates"
+        },
+        {
+          "text": "مصدر المخزون",
+          "link": "/ar/settings/inventory-source"
+        },
+        {
+          "text": "القنوات",
+          "link": "/ar/settings/channels"
+        },
+        {
+          "text": "المستخدمين",
+          "link": "/ar/settings/users"
+        },
+        {
+          "text": "الأدوار",
+          "link": "/ar/settings/roles"
+        },
+        {
+          "text": "المواضيع",
+          "link": "/ar/settings/themes"
+        },
+        {
+          "text": "الضرائب",
+          "link": "/ar/settings/taxes"
+        },
+        {
+          "text": "نقل البيانات",
+          "link": "/ar/settings/data-transfer"
+        }
+      ]
+    },
+    {
+      "text": "تكوين",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "عنوان",
+          "link": "/ar/configure/address"
+        },
+        {
+          "text": "يصف",
+          "link": "/ar/configure/attribute"
+        },
+        {
+          "text": "أوامر العودة",
+          "link": "/ar/configure/back-orders"
+        },
+        {
+          "text": "كلمة التحقق",
+          "link": "/ar/configure/captcha"
+        },
+        {
+          "text": "صفحة عرض سلة التسوق",
+          "link": "/ar/configure/cart-view-page"
+        },
+        {
+          "text": "الدفع",
+          "link": "/ar/configure/checkout"
+        },
+        {
+          "text": "خيارات قابلة للتكوين",
+          "link": "/ar/configure/configurable-choices"
+        },
+        {
+          "text": "محتوى",
+          "link": "/ar/configure/content"
+        },
+        {
+          "text": "تكوينات أسعار الصرف",
+          "link": "/ar/configure/exchange-rates-configurations"
+        },
+        {
+          "text": "البرامج النصية المخصصة",
+          "link": "/ar/configure/custom-scripts"
+        },
+        {
+          "text": "تصميم",
+          "link": "/ar/configure/design"
+        },
+        {
+          "text": "إعدادات البريد الإلكتروني",
+          "link": "/ar/configure/email-settings"
+        },
+        {
+          "text": "الواجهة الأمامية",
+          "link": "/ar/configure/frontend"
+        },
+        {
+          "text": "اللائحة العامة لحماية البيانات",
+          "link": "/ar/configure/gdpr"
+        },
+        {
+          "text": "الخروج الضيف",
+          "link": "/ar/configure/guest-checkout"
+        },
+        {
+          "text": "حجم الصورة",
+          "link": "/ar/configure/image-size"
+        },
+        {
+          "text": "إعدادات الفاتورة",
+          "link": "/ar/configure/invoice-settings"
+        },
+        {
+          "text": "الذكاء الاصطناعي السحري",
+          "link": "/ar/configure/magic-ai"
+        },
+        {
+          "text": "إشعارات",
+          "link": "/ar/configure/notifications"
+        },
+        {
+          "text": "إعدادات الطلب",
+          "link": "/ar/configure/orders-settings"
+        },
+        {
+          "text": "طرق الدفع",
+          "link": "/ar/configure/payment-methods"
+        },
+        {
+          "text": "التسعير",
+          "link": "/ar/configure/pricing"
+        },
+        {
+          "text": "صفحة عرض المنتج",
+          "link": "/ar/configure/product-view-page "
+        },
+        {
+          "text": "مراجعة",
+          "link": "/ar/configure/review"
+        },
+        {
+          "text": "مقتطفات غنية",
+          "link": "/ar/configure/rich-snippets"
+        },
+        {
+          "text": "إعدادات",
+          "link": "/ar/configure/settings"
+        },
+        {
+          "text": "طرق الشحن",
+          "link": "/ar/configure/shipping-methods"
+        },
+        {
+          "text": "شحن",
+          "link": "/ar/configure/shipping"
+        },
+        {
+          "text": "المشاركة الاجتماعية",
+          "link": "/ar/configure/social-share"
+        },
+        {
+          "text": "الضرائب",
+          "link": "/ar/configure/taxes"
+        },
+        {
+          "text": "وحدة الوزن",
+          "link": "/ar/configure/weight-unit"
+        }
+      ]
+    },
+    {
+      "text": "طرق الشحن",
+      "link": "/ar/shipping-method/shipping-methods"
+    },
+    {
+      "text": "طرق الدفع",
+      "link": "/ar/payment-method/payment-methods"
+    },
+    {
+      "text": "سوق متعدد البائعين",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "مقدمة",
+          "link": "/ar/multi-vendor-marketplace/introduction"
+        },
+        {
+          "text": "إدارة البائعين",
+          "link": "/ar/multi-vendor-marketplace/vendor-management"
+        },
+        {
+          "text": "إدارة الوكالة",
+          "link": "/ar/multi-vendor-marketplace/dealership-management"
+        },
+        {
+          "text": "إدارة الطلبات",
+          "link": "/ar/multi-vendor-marketplace/order-management"
+        },
+        {
+          "text": "إدارة اللجنة",
+          "link": "/ar/multi-vendor-marketplace/commission-management"
+        },
+        {
+          "text": "إدارة المنتج",
+          "link": "/ar/multi-vendor-marketplace/product-management"
+        },
+        {
+          "text": "إدارة التصنيف",
+          "link": "/ar/multi-vendor-marketplace/rating-management"
+        },
+        {
+          "text": "إدارة الدفع",
+          "link": "/ar/multi-vendor-marketplace/payment-management"
+        },
+        {
+          "text": "ترخيص إرجاع البضائع (RMA)",
+          "link": "/ar/multi-vendor-marketplace/return-merchandise-authorization"
+        },
+        {
+          "text": "التحميل المجمع لكتالوج البائع",
+          "link": "/ar/multi-vendor-marketplace/seller-catalog-bulk-upload"
+        },
+        {
+          "text": "سمات البائع",
+          "link": "/ar/multi-vendor-marketplace/seller-attributes"
+        },
+        {
+          "text": "سمات البائع",
+          "link": "/ar/multi-vendor-marketplace/seller-attributes"
+        },
+        {
+          "text": "إدارة اشتراكات البائع",
+          "link": "/ar/multi-vendor-marketplace/seller-subscription-management"
+        },
+        {
+          "text": "إدارة الدفع الجماعي",
+          "link": "/ar/multi-vendor-marketplace/mass-payout-management"
+        },
+        {
+          "text": "الاتصالات",
+          "link": "/ar/multi-vendor-marketplace/communications"
+        }
+      ]
+    },
+    {
+      "text": "سوق B2B",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "مقدمة",
+          "link": "/ar/b2b-marketplace/introduction"
+        },
+        {
+          "text": "طلب عروض الأسعار",
+          "link": "/ar/b2b-marketplace/request-for-quotes"
+        },
+        {
+          "text": "التواصل بين المشتري والبائع",
+          "link": "/ar/b2b-marketplace/buyer-seller-communication"
+        },
+        {
+          "text": "الموقع المصغر للمورد",
+          "link": "/ar/b2b-marketplace/supplier-microsite"
+        },
+        {
+          "text": "شراء العملاء المحتملين",
+          "link": "/ar/b2b-marketplace/buying-leads"
+        },
+        {
+          "text": "إدارة المراجعة",
+          "link": "/ar/b2b-marketplace/b2b-marketplace-review"
+        }
+      ]
+    },
+    {
+      "text": "التجارة الإلكترونية متعددة المستأجرين",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "مقدمة",
+          "link": "/ar/multi-tenant-ecommerce/introduction"
+        },
+        {
+          "text": "إدارة المشرف الفائق",
+          "link": "/ar/multi-tenant-ecommerce/super-admin-management"
+        },
+        {
+          "text": "إدارة المستأجرين",
+          "link": "/ar/multi-tenant-ecommerce/tenant-management"
+        },
+        {
+          "text": "رسم الخرائط CName",
+          "link": "/ar/multi-tenant-ecommerce/cname-mapping"
+        }
+      ]
+    },
+    {
+      "text": "منصة التجارة الإلكترونية B2B",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "مقدمة",
+          "link": "/ar/b2b-ecommerce-platform/introduction"
+        },
+        {
+          "text": "تسجيل الشركة",
+          "link": "/ar/b2b-ecommerce-platform/company-registration"
+        },
+        {
+          "text": "الأذونات المستندة إلى الدور",
+          "link": "/ar/b2b-ecommerce-platform/role-based-permissions"
+        },
+        {
+          "text": "طلبات الشراء",
+          "link": "/ar/b2b-ecommerce-platform/purchase-orders"
+        },
+        {
+          "text": "قوائم الطلبات",
+          "link": "/ar/b2b-ecommerce-platform/requisition-lists"
+        },
+        {
+          "text": "طلب سريع",
+          "link": "/ar/b2b-ecommerce-platform/quick-order"
+        },
+        {
+          "text": "طلب عرض أسعار",
+          "link": "/ar/b2b-ecommerce-platform/request-for-quote"
+        },
+        {
+          "text": "التعامل مع الاقتباس",
+          "link": "/ar/b2b-ecommerce-platform/quotation-handling"
+        }
+      ]
+    },
+    {
+      "text": "تطبيق الهاتف المحمول الأصلي",
+      "link": "/ar/open-source-mobile-app/open-source-mobile-app"
+    }
+  ]
+}
